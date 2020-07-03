@@ -1,0 +1,16 @@
+server:
+  port: 8002
+  servlet:
+    context-path: /demosystem
+    session:
+      #单位为分钟m
+      timeout: 90m
+#      name: UISESSION
+
+spring:
+  datasource:
+    name: demosystem  #数据库名
+    url: jdbc:mysql://localhost:3306/demosystem #url
+    username: root  #用户名
+    password: root  #密码
+    driver-class-name: com.mysql.jdbc.Driver  #数据库链接驱动
